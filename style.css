@@ -1,0 +1,95 @@
+/* Reset styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f2f5;
+  color: #333;
+}
+
+.container {
+  background-color: #ffffff;
+  padding: 20px 30px;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #4caf50;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-size: 16px;
+  margin-top: 15px;
+  text-align: left;
+}
+
+input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 8px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button {
+  margin-top: 20px;
+  padding: 12px;
+  width: 100%;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #43a047;
+}
+
+.hasil {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.hasil p {
+  font-size: 16px;
+  margin: 8px 0;
+}
+
+.status {
+  font-weight: bold;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.status.lulus {
+  color: #ffffff;
+  background-color: #4caf50;
+}
+
+.status.gagal {
+  color: #ffffff;
+  background-color: #e53935;
+}
